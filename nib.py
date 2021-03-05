@@ -4,5 +4,5 @@
 
 import nibabel as nib
 import numpy as np
-filename = ("C:/users/gregoryn/Desktop/minimal.nii.gz")
+filename = "/SSD2/Nick_G/KNK_sample2_decent/niftis_original_and_fixed_with_slicer/niftis_original/mouse1L_Lhemi_02x_down_autofl_chan.nii.gz"
 data = nib.load(filename).get_data()
